@@ -2,3 +2,5 @@ streamlit
 sentence_transformers
 scikit-learn
 tiktoken
+pandas
+openpyxl
