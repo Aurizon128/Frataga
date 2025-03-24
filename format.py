@@ -1,6 +1,10 @@
-import pandas as pd
-from vectorize import make_text, make_vector
+import pickle #sauvegarde
+import os #sauvegarde
+import pandas as pd #pour avoir des Dataframe
+import numpy as np #librairie de mathématiques
+import umap #outil qui réduit les dimensions
 import config
+from vectorize import make_text, make_vector
 
 
 def vectorize_data(input_path : str)-> None:
@@ -10,17 +14,35 @@ def vectorize_data(input_path : str)-> None:
     :return: None
     """
     df : pd.DataFrame = pd.read_json(input_path).T
-    df["Vector:" + config.VECTORIZER] = None # Gpt
+    df["vector:" + config.VECTORIZER] = None # Gpt
     for arch in df.index :
         data = df.loc[arch]
         vector = make_vector(make_text(data=data))
-        df.at[arch, "Vector:"+config.VECTORIZER] = vector
+        df.at[arch, "vector:"+config.VECTORIZER] = vector
+    vectors = reduce_dims(df["vector:" + config.VECTORIZER], save = True)
+    df[f"vector:{config.VECTORIZER}:reduced:{config.NB_DIMENSIONS}"]=vectors
     df.T.to_json(input_path, indent=4, force_ascii=False)
 
 
 
 
 
+def reduce_dims(embeddings: np.ndarray, save: bool = True) -> list[np.ndarray]:
+    """
+    Créer un modèle UMAP qui sert à diminuer les dimensions des vecteurs.
+    Le modèle est enregistré pour pouvoir être utilisé sur les requêtes des utilisateurs.
+    :param embeddings: Vecteurs de hautes dimensions
+    :param save: Si oui ou non on sauvegarde le modèle
+    :return: Vecteurs de faibles dimensions, le nombre est spécifié par config.NB_DIMENSIONS
+    """
+    umap_model = umap.UMAP(n_components=config.NB_DIMENSIONS)
+
+    reduced_embeddings = umap_model.fit_transform(embeddings.tolist())
+    if save:
+        encoder = config.VECTORIZER.split("/")[-1]
+        with open(os.path.join("umap_models", encoder +f"_{config.NB_DIMENSIONS}" + ".pkl"), "wb") as f:
+            pickle.dump(umap_model, f)
+    return reduced_embeddings.tolist()
 
 
 def format_xlsx(input_path:str,output_path:str) -> None:

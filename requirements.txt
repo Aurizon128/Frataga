@@ -4,3 +4,5 @@ scikit-learn
 tiktoken
 pandas
 openpyxl
+umap-learn
+numpy
