@@ -83,5 +83,5 @@ if user_input:
         st.error(f"🚨 Erreur : {e}")
 
 
-
+#La commande pour streamlit : streamlit run main.py
 
