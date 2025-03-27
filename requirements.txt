@@ -6,3 +6,4 @@ pandas
 openpyxl
 umap-learn
 numpy
+Pylette

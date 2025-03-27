@@ -19,7 +19,7 @@ def vectorize_data(input_path : str)-> None:
     df["vector:" + config.VECTORIZER] = None # Gpt
     for arch in df.index :
         data = df.loc[arch]
-        vector = make_vector(make_text(data=data),)
+        vector = make_vector(make_text(data=data, arch=arch))
         df.at[arch, "vector:"+config.VECTORIZER] = vector
     vectors = reduce_dims(df["vector:" + config.VECTORIZER], save = True)
     df[f"vector:{config.VECTORIZER}:reduced:{config.NB_DIMENSIONS}"]=vectors

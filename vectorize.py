@@ -71,7 +71,6 @@ def arch_finder(text:str,vectors_dict:dict,model:umap.UMAP | PCA):
     min_distance=None
     for vector in vectors_dict.keys():
         dist = distance(input_reduced_vector,list(vector))
-        print(f"{vectors_dict[tuple(vector)]} | {dist} | {vector}")
         if min_distance is None:
             min_distance = dist
             min_key=vector
@@ -115,11 +114,14 @@ if __name__ == '__main__':
     vectors_dict = {}
     for arch in df.index:
         value = arch
+
+
         key = df.loc[arch][f"vector:{config.VECTORIZER}:reduced:{config.NB_DIMENSIONS}"]
+
+
         vectors_dict[tuple(key)] = value
         while True:
             text=input("Entrer un texte:")
             if text == "exit":
                 exit()
             match = arch_finder(text,vectors_dict,model)
-            print(f"ton match est {match}")
