@@ -123,4 +123,5 @@ if __name__ == '__main__':
     with tab_selection:
         afficher_par_selection()
 
+#La commande pour streamlit : streamlit run main.py
 
