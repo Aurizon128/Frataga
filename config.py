@@ -15,7 +15,11 @@ class Vectorizers:
     # Un modèle spécifiquement affiné pour le français, basé sur CamemBERT-large. Il est conçu pour capturer les
     # nuances sémantiques des phrases françaises et est particulièrement adapté aux tâches de similarité
     # sémantique dans cette langue.
-    camembert = "camembert/camembert-large"
+    camembert = "dangvantuan/sentence-camembert-base"
 
-VECTORIZER = Vectorizers.pm_minilm
-NB_DIMENSIONS = 50
+class DimentsionsReductionsMethods:
+    umap="umap"
+    pca="pca"
+VECTORIZER = Vectorizers.camembert
+NB_DIMENSIONS = 60
+DIMENSIONS_REDUCTION_METHOD = DimentsionsReductionsMethods.pca
