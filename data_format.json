@@ -1,0 +1,767 @@
+{
+    "Champion de Guerre":{
+        "category":"combat",
+        "description_en":"A battle-hardened veteran, forged through countless wars. His sturdy frame is clad in worn yet reinforced armor, each dent telling a story of survival. A faded regimental cloak drapes his shoulders, and his half-lifted visor reveals a gaze of unshakable resolve. Armed with a massive longsword and a shoulder-mounted crossbow, he seamlessly shifts between melee and ranged combat. A true pillar on the front lines, he embodies endurance, tactical prowess, and controlled ferocity.",
+        "tags_fr":"Commandant, Armure, Épée, Bouclier, Bataille, Force, Lutte, Courage, Champion",
+        "description_fr":" Héros endurci par les batailles, symbole de résilience et de discipline martiale. Il incarne la force calme et la survie à travers l’épreuve. Son regard trahit une volonté inébranlable, forgée dans la douleur et l’honneur. Valeurs clés ",
+        "color":"#4B4E6D, #A69E80, #D5C7B2",
+        "sub_category":"lutte",
+        "values":" endurance, loyauté, stratégie défensive, courage humble. Son récit personnel est une succession de campagnes, de retraites héroïques et de camaraderie indéfectible."
+    },
+    "Seigneur de Guerre":{
+        "category":"combat",
+        "description_en":"A towering figure clad in darkened steel, his armor adorned with intricate engravings of past conquests. His piercing gaze commands respect, and his imposing presence is enough to rally armies. A crimson cape flows behind him, and his gauntleted hands grip an ornate war axe with deadly precision.",
+        "tags_fr":"Stratégie, Commandant, Armure, Épée, Bouclier, Leadership, Bataille, Tactique, Sagesse, Guerre",
+        "description_fr":" Stratège impitoyable, dominateur sur les champs de bataille. Sa sagesse est égale à sa cruauté. Chef de guerre, il incarne le pouvoir, la discipline et la suprématie militaire. Il impose l'ordre par la peur mais mène ses hommes à la victoire. ",
+        "color":"#2D2A2E, #B9182A, #716C6C",
+        "sub_category":"stratège",
+        "values":" autorité, ambition, ruse, légitimité par la conquête. Son histoire est marquée par des trahisons orchestrées et des alliances brisées."
+    },
+    "Templier du Zénith":{
+        "category":"combat",
+        "description_en":"A holy knight radiating divine light, his silver-plated armor reflecting the golden hues of the sun. His chiseled face remains calm and resolute, framed by flowing white hair. A large, radiant shield rests on one arm while the other wields a longsword blessed by celestial forces.",
+        "tags_fr":"Sacré, Lumière, Bouclier, Justice, Épée, Protection, Foi, Armure, Noble, Courage",
+        "description_fr":" Défenseur sacré au service d’une foi solaire, il agit en rempart lumineux contre les ténèbres. Il incarne la justice divine, la protection des innocents et la pureté morale. ",
+        "color":"#E1D9B0, #F2F0DA, #A7B2C3",
+        "sub_category":"défenseur",
+        "values":" foi, sacrifice, justice, discipline spirituelle. Sa légende se raconte dans les monastères et les chants des pèlerins."
+    },
+    "Champion Draconique":{
+        "category":"combat",
+        "description_en":"A warrior infused with the power of dragons, his armor forged from obsidian scales that shimmer with ember-like veins. His fiery eyes and clawed gauntlets give him an almost draconic appearance, while the molten cracks across his armor hint at the immense heat within.",
+        "tags_fr":"Dragon, Feu, Scales, Énergie, Épée, Élémentaire, Force, Majesté, Légende, Combat",
+        "description_fr":" Guerrier mystique lié à l’essence élémentaire du feu draconique. Il dégage une puissance brute, sauvage et indomptable. Mi-homme, mi-légende, il est le porteur d’un héritage ancien et magique. ",
+        "color":"#2C1C1C, #B84C26, #F3A86C",
+        "sub_category":"élémentaire",
+        "values":" force primordiale, fierté, indépendance, maîtrise des éléments. Son histoire évoque des pactes anciens et des flammes immortelles."
+    },
+    "Faucheur Silencieux":{
+        "category":"combat",
+        "description_en":"A ghost-like assassin clad in tight-fitting, shadowy garb. His face remains hidden behind a dark hood, with only his piercing, cat-like eyes visible. Twin daggers rest at his hips, and his movements are eerily silent, like a phantom gliding through the night.",
+        "tags_fr":"Assassin, Ombre, Agilité, Dagues, Vitesse, Précision, Discrétion, Silencieux, Tactique, Ombre",
+        "description_fr":" Assassin spectrale, incarnation de la discrétion et de la précision létale. Il frappe sans bruit, comme une ombre qui effleure le monde. Son regard perçant et félin est la dernière vision de ses cibles. ",
+        "color":"#1A1A1E, #5E5E73, #B3B4C1",
+        "sub_category":"assassin",
+        "values":" furtivité, agilité, efficacité, maîtrise totale de soi. Son histoire est faite de contrats, de trahisons silencieuses et d’identités effacées."
+    },
+    "Brise-Crâne":{
+        "category":"combat",
+        "description_en":"A warrior surrounded by an aura of crackling electricity, his silver armor pulsating with energy. His long, windblown hair seems to dance with static, and his storm-forged spear hums with latent power. Every step he takes leaves a faint trail of sparks.",
+        "tags_fr":"Force, Guerre, Endurance, Muscles, Hache, Résilience, Combat, Courage, Barbare, Guerrier",
+        "description_fr":" Guerrier tonitruant, force brute incarnée, chargé de l’énergie d’une tempête. Son arme vibre au rythme de l’éclair, et il déchaîne la fureur céleste sur ses ennemis. ",
+        "color":"#C1C6CB, #8EA1B6, #F5E14C",
+        "sub_category":"barbare",
+        "values":" endurance, férocité, domination, courage instinctif. Son mythe évoque un enfant abandonné élevé par l’orage."
+    },
+    "Chevalier Noir":{
+        "category":"combat",
+        "description_en":"A wild, untamed warrior with a muscular, scar-covered body. His long, unkempt hair flows wildly as he charges into battle, his eyes filled with primal rage. Dressed in furs and bone accessories, he wields a massive bloodstained axe, swinging it with terrifying force.",
+        "tags_fr":"Magie, Cursed, Chevalier, Sombre, Épée, Mystère, Rédemption, Maudit, Triste, Sinistre",
+        "description_fr":" Guerrier maudit, consumé par une rage ancienne. Ses cicatrices racontent une histoire de trahison, de perte et de damnation. Il lutte entre sa nature destructrice et un espoir de rédemption. ",
+        "color":"#2E1D1F, #6A4F4B, #8B1313",
+        "sub_category":"maudit",
+        "values":" colère, tragédie, puissance, fatalisme. Son passé est trouble, fait de pactes noirs et de serments brisés."
+    },
+    "Lancier du Vent":{
+        "category":"combat",
+        "description_en":"A knight cloaked in a flowing, midnight-blue robe, his armor adorned with eerie, glowing runes. His gauntlet crackles with arcane energy as he weaves spells between slashes of his razor-sharp sword. His expression is cold, detached, as if touched by forces beyond mortal comprehension.",
+        "tags_fr":"Vitesse, Agilité, Lance, Souplesse, Précision, Mouvement, Combat, Fluidité, Rapide, Légèreté",
+        "description_fr":" Guerrier aérien, vif comme une rafale nocturne. Ses attaques sont une danse fluide et précise, rythmée par une magie mystérieuse. Il semble détaché du monde, agissant comme une entité élémentaire. ",
+        "color":"#0F1C2F, #52678F, #ADC8E6",
+        "sub_category":"agile",
+        "values":" vitesse, grâce, froideur, efficacité surnaturelle. Sa légende est liée aux cieux et aux secrets de l’éther."
+    },
+    "Sentinelle de Fer":{
+        "category":"combat",
+        "description_en":"A brutal, battle-worn warrior with crimson tattoos glowing across his tanned skin. His gladiator armor is minimal yet adorned with wicked spikes, and his flame-forged gauntlets seem to pulse with a fiery glow. His smirk is one of confidence, daring any opponent to challenge him.",
+        "tags_fr":"Protection, Défense, Bouclier, Armure, Inflexible, Résistance, Force, Gardien, Combat, Résilience",
+        "description_fr":" Gardien brutal et stoïque, véritable rempart de chair et de métal. Marqué par les batailles, il arbore fièrement ses cicatrices et défie quiconque de franchir sa garde. ",
+        "color":"#5A2B1F, #BF4C2A, #F7A678",
+        "sub_category":"défenseur",
+        "values":" résilience, défi, discipline martiale, protection sans faille. Son histoire évoque les arènes, les sièges et les pactes d’honneur."
+    },
+    "Danseur de Lames":{
+        "category":"combat",
+        "description_en":"A towering knight clad in glacial armor, his breath visible in the cold air. His piercing ice-blue eyes glow beneath his horned helmet, and his frost-rimed greatsword leaves a trail of cold mist with every swing. He moves with the patience of an ancient glacier, unstoppable and inevitable.",
+        "tags_fr":"Dual-wield, Agilité, Vitesse, Danse, Lames, Précision, Combat, Souplesse, Élégance, Agilité extrême",
+        "description_fr":" Maître de la fluidité martiale, il incarne la grâce froide et la précision implacable. Chaque mouvement est une chorégraphie létale. Malgré sa carrure imposante, il se déplace avec une agilité surnaturelle, comme un blizzard contrôlé. ",
+        "color":"#D3EAF2, #A6B8C7, #5C748A",
+        "sub_category":"agile",
+        "values":" discipline, élégance, contrôle, maîtrise du corps. Sa légende évoque un duel éternel contre le temps."
+    },
+    "Chasseur de Géants":{
+        "category":"combat",
+        "description_en":"A focused female hunter in dark tactical armor and a fluttering cloak stands atop a cliff at sunrise, aiming a harpoon rifle toward a distant giant’s silhouette, her mask’s optics glowing, canyon wind swirling around her — splash art style, burnt orange color palette",
+        "tags_fr":"Géant, Chasseur, Spécialiste, Harpon, Précision, Armement, Stratégie, Créature, Audace, Combat",
+        "description_fr":" Spécialiste solitaire au sang-froid inébranlable, elle traque des créatures titanesques avec stratégie et précision. Elle symbolise l’audace face à l’impossible, et la ténacité dans l’ombre. ",
+        "color":"#372E2A, #CE7138, #F5C49A",
+        "sub_category":"spécialiste",
+        "values":" focalisation, ruse, adaptation, courage méthodique. Ses récits sont chuchotés entre survivants."
+    },
+    "Magicien des Arcanes":{
+        "category":"magie",
+        "description_en":"A female mage in flowing indigo robes covered in glowing runes casts a radiant spell in a cosmic library, surrounded by floating tomes, scrolls, and starlit relics, her eyes shimmering like galaxies — splash art style, deep indigo color palette",
+        "tags_fr":"Savoir, Magie, Arcanes, Sagesse, Runes, Énergie, Connaissance, Mystère, Sorts, Puissance",
+        "description_fr":" Gardienne des secrets cosmiques, elle manie les lois invisibles avec calme et majesté. Chaque geste fait danser les constellations. Elle incarne le savoir infini, la sagesse et l’élévation spirituelle. ",
+        "color":"#2A2448, #4C3C88, #9C91E2",
+        "sub_category":"mystique",
+        "values":" érudition, mystère, harmonie magique, transcendance. Son histoire est consignée dans des grimoires oubliés."
+    },
+    "Chaman de la Forêt":{
+        "category":"magie",
+        "description_en":"A serene female shaman with glowing tribal markings and mossy layered robes stands barefoot in a moonlit glade, raising a wooden staff crowned with a floating crystal, surrounded by bioluminescent plants and rising vines — splash art style, verdant teal color palette",
+        "tags_fr":"Magie, Nature, Esprit, Forêt, Chaman, Prêtre, Esprit animal, Vie sauvage, Mystique, Éléments",
+        "description_fr":" Guide spirituelle des bois anciens, elle communie avec les forces naturelles. Ses marques luisantes symbolisent l’union entre chair et nature. Elle veille sur les cycles vitaux avec douceur et fermeté. ",
+        "color":"#2F4F3C, #66A896, #A0E2C3",
+        "sub_category":"nature",
+        "values":" équilibre, sagesse instinctive, respect du vivant, écoute intérieure. Son passage laisse des fleurs éclore."
+    },
+    "Alchimiste de l’Éther":{
+        "category":"magie",
+        "description_en":"An androgynous alchemist in layered rune-embroidered robes stands in a moonlit cloud-top workshop, conjuring ether from one hand while holding a glowing vial in the other, surrounded by floating scrolls and potions — splash art style, luminous cyan color palette",
+        "tags_fr":"Création, Alchimie, Potions, Savoir, Transformation, Magie, Recherche, Mystère, Éther, Énergie",
+        "description_fr":" Savant de la frontière entre le tangible et l’imaginaire, il transforme l’invisible en matière. Sa silhouette énigmatique reflète la quête d’harmonie entre science et magie. ",
+        "color":"#203F42, #50D1DC, #A7F4F5",
+        "sub_category":"création",
+        "values":" créativité, recherche, subtilité, génie tranquille. Il écrit ses formules dans le vide."
+    },
+    "Prêtre de l'Aube":{
+        "category":"magie",
+        "description_en":" A serene female priest in pale gold-trimmed robes stands atop a sunlit mountain shrine at dawn, arms outstretched with radiant light flowing from her hands, marble arches and fluttering banners behind her, doves in flight — splash art style, warm gold color palette",
+        "tags_fr":"Divin, Lumière, Foi, Guérison, Bénédiction, Sacré, Prêtre, Aura, Sérénité, Protection",
+        "description_fr":" Émissaire solaire de la foi, elle incarne la guérison, l’espoir et la lumière triomphante. Sa présence apaise et inspire. Elle est la voix des bénédictions et la gardienne du renouveau. ",
+        "color":"#F2E2C2, #FFD88A, #E8BC7C",
+        "sub_category":"divin",
+        "values":" pureté, paix, réconfort, bienveillance divine. Elle prie avec les rayons du jour."
+    },
+    "Druide des Ombres":{
+        "category":"magie",
+        "description_en":"A mysterious female druid in robes of bark, moss, and shadow stands in a moonlit marsh, dark runes glowing on her skin, holding a staff with a raven skull, surrounded by silent ghostly ravens and twisted trees — splash art style, midnight black and deep moss green color palette",
+        "tags_fr":"Ombre, Nature, Esprit, Corbeaux, Secrets, Mystère, Magie, Druide, Créature, Ombre.",
+        "description_fr":" Gardienne des marais nocturnes, elle tire sa puissance de la nature sauvage et des esprits oubliés. Mystérieuse, silencieuse, elle incarne l’équilibre entre la vie et la mort, la nature et l’ombre. Ses corbeaux ne sont jamais loin, porteurs de messages d’outre-tombe. ",
+        "color":"#0C0C0C, #3A4A32, #5E6654",
+        "sub_category":"ombre",
+        "values":" secret, connexion aux esprits, harmonie sombre, autonomie. Son passé est un tissu d’anciens pactes druidiques et de rituels oubliés."
+    },
+    "Prêtre Guerrier":{
+        "category":"combat",
+        "description_en":"A powerful woman in ornate silver-and-gold armor inscribed with sacred runes. Her eyes glow faintly with divine magic. In one hand, she holds a radiant mace; in the other, a sigil-encrusted tome glowing with holy symbols. Her armor flares with blessing energy, casting protective light over nearby allies.",
+        "tags_fr":"Faith, Force, Combat, Prêtre, Bénédiction, Armure, Magie, Divin, Espoir, Protection",
+        "description_fr":" Incarnation du juste combat, elle canalise la lumière divine à travers son corps et ses armes. Chaque coup porté est une prière, chaque protection un miracle. Elle se dresse entre le mal et les siens, inébranlable. ",
+        "color":"#D8D1B0, #F5E88C, #989FB3",
+        "sub_category":"magie",
+        "values":" foi active, protection sacrée, devoir, espoir militant. Sa légende est récitée dans les temples et les chants de guerre."
+    },
+    "Sorcière des Vents":{
+        "category":"magie",
+        "description_en":"A silver-haired female wind sorceress levitates in a stormy sky, wearing translucent rune-embroidered robes, commanding a vortex of wind and lightning with a swirling silver staff, floating rocks spiral around her — splash art style, sky blue color palette",
+        "tags_fr":"Magie, Vent, Sorcière, Élémentaire, Agilité, Tornade, Ciel, Énergie, Souffle, Agilité",
+        "description_fr":" Esprit libre du ciel, elle maîtrise les courants aériens et la foudre comme une danse. Sa magie est rapide, insaisissable, fluide comme le vent lui-même. Elle agit dans l’instant, imprévisible et brillante. ",
+        "color":"#BFDFFF, #8DB8E6, #E6F2FA",
+        "sub_category":"élémentaire",
+        "values":" liberté, mouvement, intuition, énergie pure. Son origine est liée aux hauteurs orageuses et aux tempêtes anciennes."
+    },
+    "Enchantresse des Profondeurs":{
+        "category":"magie",
+        "description_en":"A mystical female enchantress with glowing eyes and flowing ice-water robes floats in a submerged temple, holding a shell-shaped staff wrapped in ocean currents, surrounded by bioluminescent corals and marine runes — splash art style, deep turquoise color palette",
+        "tags_fr":"Océan, Magie, Eau, Glace, Enchantement, Profondeurs, Mystique, Tempête, Créature marine, Fluide",
+        "description_fr":" Mystique et insaisissable, elle veille sur les ruines englouties et les secrets marins. Sa magie est ondulante, hypnotique, mêlant glace et eau dans une danse ancienne. ",
+        "color":"#04343D, #2D6F79, #96D2D9",
+        "sub_category":"océan",
+        "values":" mystère, beauté glacée, sagesse liquide, enchantement. Elle est la mémoire vivante des profondeurs oubliées."
+    },
+    "Archer Céleste":{
+        "category":"combat",
+        "description_en":"An ethereal female archer in radiant robes draws a glowing crescent-moon bow high above the clouds during a celestial alignment, stars swirling around her and starlight falling like rain — splash art style, luminous silver-blue color palette",
+        "tags_fr":"Élémentaire, Ciel, Arc, Précision, Lumière, Flèche, Astres, Combat, Distance, Élégance",
+        "description_fr":" Figure élégante et surnaturelle, elle incarne la grâce du cosmos et la précision absolue. Chaque flèche est une étoile guidée, chaque tir un équilibre parfait. ",
+        "color":"#DDEBFF, #9FB8E6, #C0C4E7",
+        "sub_category":"élémentaire",
+        "values":" harmonie céleste, élégance, vigilance, lumière douce. Elle n’intervient que lors d’alignements rares, selon les lois stellaires."
+    },
+    "Scribe des Sables":{
+        "category":"magie",
+        "description_en":"A wise scribe, draped in a flowing silk robe the color of sunlit dunes, adorned with intricate ancient symbols that seem to shift like desert mirages. His inkwell contains mysterious golden sands mixed with enchanted ink, and every word he writes appears to ripple like wind-swept grains, reshaping themselves under his quill. His hands are stained with the dust of forgotten tombs, and his scrolls carry the whispers of civilizations buried beneath the shifting desert. He is the guardian of lost knowledge, a scholar who can decipher any language or ancient text, his voice carrying the weight of centuries. His books, bound in weathered leather and filled with spells, prophecies, and secrets long buried beneath the dunes, hold the power of the desert itself. He is not merely a magician, but a keeper of the sands of time, a protector of wisdom as eternal as the shifting horizons.",
+        "tags_fr":"Magie, Connaissance, Savoir, Scribe, Prophétie, Écriture, Livres, Secrets, Recherche, Antiquité",
+        "description_fr":" Maître érudit du désert, il incarne la mémoire des civilisations perdues. Chaque mot qu’il trace détient une force magique, un écho du passé sculpté dans le sable. Son savoir profond et sacré le rend capable de réveiller des prophéties oubliées. ",
+        "color":"#D6C79E, #B59E75, #8A6F4D",
+        "sub_category":"connaissance",
+        "values":" connaissance antique, sagesse silencieuse, mémoire du monde, magie discrète. Son histoire est tissée de mystères, de ruines et d’éternité."
+    },
+    "Voyant des Étoiles":{
+        "category":"magie",
+        "description_en":"The Seer of the Stars is a mystic who can read the signs of the heavens and decode the hidden messages within the constellations. His gaze is piercing, as if he is peering into the vast expanse of the universe itself. Dressed in a flowing black velvet robe embroidered with golden stars, he carries a grand magical telescope, always seeking answers beyond the mortal realm. Ethereal starlight shimmers around him, casting an otherworldly glow on his presence. His powers allow him to foresee the future and read minds, using the celestial bodies as his guide. He is the embodiment of cosmic wisdom and mystical astronomy, a conduit between the mortal world and the infinite expanse of the cosmos.",
+        "tags_fr":"Ciel, Prédiction, Constellations, Mystique, Voyant, Divin, Astronomie, Sagesse, Magie, Voyance",
+        "description_fr":" Interprète mystique du ciel nocturne, il navigue les constellations comme d'autres lisent les livres. Guide cosmique, il parle avec les étoiles et prédit les voies à venir. ",
+        "color":"#1F1B2E, #C3A44B, #6D73B1",
+        "sub_category":"divin",
+        "values":" intuition, transcendance, sagesse céleste, mystère. Son rôle est de dévoiler les fils invisibles qui relient le destin."
+    },
+    "Rôdeur des Ombres":{
+        "category":"combat",
+        "description_en":"A solitary explorer, accustomed to slipping through shadows and living in dim light. He wears a lightweight cloak that helps him blend into his surroundings, and a series of knives hidden along his arms and belt. His gaze is that of a predator, always alert, and his body is finely muscled, perfect for stealth and agility. He knows deep forests and ancient ruins and uses the environment to his advantage to trap enemies. He is the master of shadows, ensuring his steps are always unnoticed.",
+        "tags_fr":"Agilité, Discrétion, Rôdeur, Silence, Évasion, Souplesse, Furtivité, Prédateur, Nature, Exploration",
+        "description_fr":" Chasseur silencieux, il évolue dans l’ombre avec une précision mortelle. Solitaire et insaisissable, il protège les secrets de la nature sauvage. ",
+        "color":"#2C2C2C, #5C5B57, #8A7F6F",
+        "sub_category":"agile",
+        "values":" agilité, discrétion, liberté, adaptation. Sa légende est murmurée, jamais criée. Il vit entre les branches et les murmures."
+    },
+    "Sérénité du Lotus":{
+        "category":"magie",
+        "description_en":"A meditative monk, wearing a light white linen tunic decorated with floral patterns representing lotus flowers. His eyes are closed, and he seems immersed in deep spiritual contemplation. He can manipulate the vital energy around him to heal or soothe others' souls. His gestures are soft and measured, filled with calm and serenity. A glowing halo often emanates from him, embodying the inner peace he seeks to transmit. He uses the strength of the mind to subtly influence the physical world.",
+        "tags_fr":"Spiritualité, Méditation, Paix, Sérénité, Lotus, Guérison, Harmonie, Energie, Souffle, Détente",
+        "description_fr":" Moine contemplatif, il est l’écho du calme intérieur. Maître du souffle vital, il guérit par la paix qu’il dégage. Il harmonise les énergies du monde avec douceur. ",
+        "color":"#E6E4DA, #C4D1C4, #F2B7A1",
+        "sub_category":"spirituel",
+        "values":" équilibre, paix intérieure, spiritualité, bienveillance. Son histoire est une méditation lente, fleurissant dans la lumière douce du matin."
+    },
+    "Garde-Soleil":{
+        "category":"combat",
+        "description_en":"A fervent guardian, wearing shining golden armor as bright as the sun. He carries a large spear and shield, and his role is to protect sacred lands and cities under his watch. His gaze is firm, and his eyes shine with an almost divine light. Around him, the light seems to strengthen, as if he controls the sun itself. He is a fighter who inspires faith and courage, relentlessly defending those he swears to protect. He embodies light in the face of darkness.",
+        "tags_fr":"Protection, Lumière, Bouclier, Soleil, Courage, Défenseur, Armure, Divinité, Force, Sacré",
+        "description_fr":" Guerrier sacré, incarnation vivante de la lumière protectrice. Il se tient en rempart contre l’ombre, fidèle à sa mission divine. Rayonnant, il inspire autant par sa foi que par sa puissance. ",
+        "color":"#FFD56D, #F6B13A, #A67C29",
+        "sub_category":"protecteur",
+        "values":" protection, justice solaire, foi, courage flamboyant. Il est le zénith d’un ordre ancien, défenseur incorruptible."
+    },
+    "Gladiateur des Sables":{
+        "category":"combat",
+        "description_en":"An expert fighter from the arenas, with skin marked by years of combat. He wears light armor that allows for maximum mobility, along with reinforced gauntlets to block blows. His body is sculpted by training, and his movements are a mix of dance and violence. His face is partially hidden by a mask, but his eyes burn with fierce determination. He fights not only for glory but also for freedom in a world where he is bound by invisible chains.",
+        "tags_fr":"Lutte, Combat, Arène, Sable, Liberté, Force, Résistance, Masque, Danse, Gloire",
+        "description_fr":" Guerrier né pour l’arène, incarnation de la survie et de la quête de liberté. Chaque cicatrice est une victoire, chaque mouvement un mélange de grâce et de rage. Son masque cache un homme en lutte contre l’oppression. ",
+        "color":"#C6A15B, #7A5C3C, #E0C48F",
+        "sub_category":"lutte",
+        "values":" résistance, liberté, courage, discipline corporelle. Son histoire est une ascension brutale du sable vers la légende."
+    },
+    "Invocateur des Ombres":{
+        "category":"magie",
+        "description_en":"A dark mage capable of summoning entities from the shadow realms. He wears a black robe adorned with occult symbols, and an eerie aura emanates from him, as if the darkness itself is drawn to his presence. With each summon, a dark figure appears by his side, ready to carry out his will. His face is always hidden, and he rarely speaks, preferring to let his creatures act in his place. He is the master of shadows and the beings who reside within them.",
+        "tags_fr":"Magie, Invocation, Ombre, Mystère, Entité, Occulte, Puissance, Mystique, Sombre, Cérémonie",
+        "description_fr":" Mage énigmatique baigné dans l’obscurité, communiant avec les entités invisibles. Il ne vit que pour la puissance cachée et l’équilibre fragile entre le monde des vivants et celui des ombres. ",
+        "color":"#1A1A1D, #3D2E3A, #6F4E7C",
+        "sub_category":"invocation",
+        "values":" mystère, pouvoir interdit, silence, domination indirecte. Son histoire est tissée de pactes occultes et de présences invisibles."
+    },
+    "Porteur de Flamme":{
+        "category":"combat",
+        "description_en":"A fighter bound to the element of fire. His body seems fueled by living flames, which dance under his skin and burn at his wrists and feet. He wears light armor to protect his vital areas but leaves his body free to move with the fluidity of fire itself. His spear is made of solidified lava, and his breath is as hot as embers. Every movement creates an explosion of heat and light. He is both a weapon and an element, a knight of fire.",
+        "tags_fr":"Feu, Lave, Combustion, Flammes, Magie, Arme, Chaleur, Feu sacré, Combat, Force",
+        "description_fr":" Incarnation vivante du feu, mélange de colère sacrée et de grâce incandescente. Il ne parle qu’à travers la chaleur de ses coups, brûlant l’air autour de lui. ",
+        "color":"#FF4500, #A52A2A, #FFD580",
+        "sub_category":"magie",
+        "values":" intensité, transformation, volonté pure, chaos maîtrisé. Il est la flamme qui consume pour purifier."
+    },
+    "Barde de la Nuit":{
+        "category":"magie",
+        "description_en":"A mysterious bard who sings enchanting melodies under the moonlight. He wears a black tunic decorated with silver threads, and his lyre seems to emit sounds that alter the ambiance around him. His songs are magical, capable of awakening deep emotions or manipulating the minds of others. He moves like a specter, light and silent, with a mischievous smile. His art is to charm, manipulate, and inspire those who listen to him.",
+        "tags_fr":"Magie, Musique, Divertissement, Chant, Charisme, Mélodie, Envoûtement, Art, Sorcellerie, Lune",
+        "description_fr":" Artiste lunaire aux chants enchanteurs, il manipule les émotions comme un mage manipule les arcanes. Derrière son sourire, se cache une volonté de perturber l’ordre établi par la beauté. ",
+        "color":"#0D0D2B, #6C6C8D, #D6D3E3",
+        "sub_category":"divertissement",
+        "values":" charisme, subtilité, illusion, inspiration. Son histoire se chante dans les tavernes et les rêves troublés."
+    },
+    "Serpent d'Acier":{
+        "category":"combat",
+        "description_en":"An assassin whose body is equipped with mechanical enhancements, like a living machine. His arms and legs are reinforced with steel plates, and a retractable blade hides under his sleeve. His eyes are sharp, and he is deadly fast. He slips through crowds with a fluid, mechanical stride, almost like a serpent. He is a master in the art of infiltration and stealthy assassination, able to blend into shadows without being seen.",
+        "tags_fr":"Assassin, Mécanique, Métal, Lame, Vitesse, Précision, Discrétion, Invisible, Célérité, Silencieux",
+        "description_fr":" Assassin cybernétique, glissant entre les ombres et les foules comme une lame silencieuse. Mi-homme, mi-machine, il est l’arme parfaite, froide et précise. ",
+        "color":"#2E2F30, #8B8C89, #C2C2C2",
+        "sub_category":"assassin",
+        "values":" efficacité, discrétion, neutralité, vitesse létale. Son passé est un dossier classé secret."
+    },
+    "Gardien des Runes":{
+        "category":"magie",
+        "description_en":"An ancient rune guardian, wearing armor engraved with mystical symbols that allow him to protect those he loves. His shield is imbued with ancient magic, and each rune he touches creates a magical field of protection. His skin is marked with magical tattoos that glow when he casts a defensive spell. He is a protector of ancient secrets and uses runic magic to strengthen his allies and neutralize enemies.",
+        "tags_fr":"Magie, Runes, Protection, Défenseur, Bouclier, Ancestral, Énergie, Sagesse, Armure, Protection",
+        "description_fr":" Protecteur mystique, ancré dans les traditions anciennes. Sa magie défensive fait de lui un rempart vivant, silencieux et immuable. ",
+        "color":"#4E5B6E, #8FA0B7, #C1B49C",
+        "sub_category":"protection",
+        "values":" protection, sagesse, mémoire, fidélité. Il veille sur des secrets oubliés et protège ceux qui n’ont plus rien."
+    },
+    "Chasseur de Fantômes":{
+        "category":"combat",
+        "description_en":"A solitary hunter, expert in tracking and capturing spectral creatures. He wears a heavy cloak that seems to absorb the light around him, and his weapons are forged from materials capable of repelling spirits. His gaze is marked by cold determination, and he uses ancient rituals to summon spiritual traps. Soul fragments float around him, and his presence is accompanied by a chilling mist that makes the air heavy and difficult to breathe.",
+        "tags_fr":"Magie, Fantôme, Spectre, Chasseur, Invoquer, Esprit, Traqueur, Conjurations, Ombre, Rituels",
+        "description_fr":" Traqueur solitaire des esprits, maître des rituels anciens. Son aura est glaciale, empreinte d’un silence spectral. Il incarne la vigilance, la rigueur et l’équilibre entre science occulte et instinct. ",
+        "color":"#1C1D24, #5F6471, #8CA4B6",
+        "sub_category":"magie",
+        "values":" discipline, intuition, secret, purification. Il évolue dans l’ombre, là où les autres n’osent s’aventurer, piégeant les âmes errantes avec précision."
+    },
+    "Mage de Feu":{
+        "category":"magie",
+        "description_en":"A mage whose powers are rooted in the element of fire. His piercing gaze seems to reflect flames, and his robe is made of fiery fabrics that softly crackle. He masters pyrokinetics, able to summon flames from his hands or eyes. Each spell he casts generates an explosion of heat and light, with sparks dancing around him. He can manipulate waves of fire or summon fire creatures to help in his battles.",
+        "tags_fr":"Feu, Pyrokinésie, Magie, Explosion, Flammes, Éléments, Chaleur, Incantations, Ardent, Puissance",
+        "description_fr":" Incarnation du feu maîtrisé, ce mage canalise une énergie ardente à la fois destructrice et créatrice. Son regard brûle de passion et de colère retenue. Il vit dans l’urgence, propulsé par un besoin intense de transformer le monde par la chaleur de sa magie. ",
+        "color":"#FF4500, #B22222, #FFD700",
+        "sub_category":"élémentaire",
+        "values":" impulsivité, puissance, flamboyance, maîtrise élémentaire. Il est souvent craint pour la dévastation qu’il peut provoquer, mais aussi admiré pour sa force vitale."
+    },
+    "Mage des Glaces":{
+        "category":"magie",
+        "description_en":"A mage who commands the element of ice. His body is always surrounded by a chilly breeze, and his robe seems to be covered in a thin layer of frost with each movement. He can create snowstorms, ice spikes, or shields as solid as rock. His powers allow him to slow or immobilize enemies by freezing them in place. When he casts spells, ice crystals burst around him. He embodies the cold and beauty of winter, a master of icy elements.",
+        "tags_fr":"Gel, Glace, Tempête, Hiver, Cristaux, Magie, Élémentaire, Froid, Enchantement, Gelure.",
+        "description_fr":" Figure sereine et distante, il incarne la rigueur et la beauté glacée de l’hiver. Son calme absolu contraste avec la violence figée de ses sortilèges. Il est méthodique, implacable et d’une précision chirurgicale. ",
+        "color":"#B0E0E6, #4682B4, #D8F0F8",
+        "sub_category":"élémentaire",
+        "values":" discipline, isolement, élégance, contrôle. Sa magie raconte les histoires oubliées du Nord, où le silence règne et la nature survit sous la glace."
+    },
+    "Mage des Ténèbres":{
+        "category":"magie",
+        "description_en":"A mage who masters dark and occult forces. His appearance is frightening, with black robes that seem absorbed by darkness itself. He summons creatures from the shadows, and his spells plunge his enemies into an awakened nightmare, where they are blinded by darkness or paralyzed by fear. With each incantation, the air grows colder, and a black mist forms around him. He is the embodiment of black magic, acting in shadow and concealment.",
+        "tags_fr":"Ombre, Ténèbres, Cauchemar, Magie noire, Occulte, Mystère, Créatures, Terreur, Invisibilité, Peur",
+        "description_fr":" Gardien des secrets inavouables, il manipule la peur comme une arme. Son pouvoir vient du vide, du cauchemar, de l’interdit. ",
+        "color":"#0F0F12, #3C3246, #665975",
+        "sub_category":"ombre",
+        "values":" dissimulation, transgression, puissance silencieuse. Il n’est ni bon ni mauvais, seulement l’ombre nécessaire à l’équilibre."
+    },
+    "Mage de l'Éther":{
+        "category":"magie",
+        "description_en":"A mage whose powers come from the Ether, a mysterious energy that connects all things in the world. He is wrapped in a floating robe made of pale light, and his eyes glow with a cosmic shine. He can manipulate subtle energies, alter reality, or create portals to other dimensions. His gestures are precise, as if drawing the invisible lines of the universe, using mystical symbols to channel his power. He is the manipulator of invisible forces, able to open windows to unknown worlds.",
+        "tags_fr":"Éther, Magie, Dimensions, Abstrait, Réalité, Portails, Mystique, Magie cosmique, Inconnu, Forces invisibles",
+        "description_fr":" Maître des courants invisibles de l’univers, il manipule les énergies subtiles qui relient les plans de l’existence. Il est à la fois scientifique et mystique, interprétant les lois abstraites de la réalité pour remodeler le monde. Sa magie est fluide, élégante et parfois incompréhensible pour les esprits ordinaires. ",
+        "color":"#B9C0DC, #8C89A6, #D6E1F5",
+        "sub_category":"abstraite",
+        "values":" connaissance, mystère, exploration de l’inconnu, perception supérieure. Il voyage entre dimensions, laissant derrière lui des énigmes non résolues."
+    },
+    "Mage de la Lumière":{
+        "category":"magie",
+        "description_en":"A mage whose magic is guided by divine light. He wears a robe of pure white brilliance, and around him, glowing halos float, creating an aura of peace. He can heal wounds, purify souls, and push back darkness with concentrated rays of light. His inspiring gaze warms the heart, and his spells can illuminate even the deepest darkness. His hands, illuminated by divine light, are ready to guide and protect.",
+        "tags_fr":"Divin, Lumière, Guérison, Pureté, Protection, Magie, Sacré, Éclat, Bénédiction, Esprit",
+        "description_fr":" Canal sacré d’une énergie divine, il agit comme un guide spirituel, guérisseur et défenseur de l’équilibre moral. Sa présence apaise et inspire, incarnant la compassion et la clarté morale. ",
+        "color":"#FFFFFF, #FFEFA8, #E4D5F4",
+        "sub_category":"divin",
+        "values":" pureté, espérance, sagesse lumineuse, protection désintéressée. On le dit envoyé par les astres ou les dieux eux-mêmes pour apporter équilibre et paix."
+    },
+    "Mage de l'Air":{
+        "category":"magie",
+        "description_en":"A mage who controls the element of air, his spirit as free and fast as the wind. He wears a light tunic that floats like a breeze, and his movements are graceful and fluid. He can summon tornadoes, manipulate air currents to move at high speeds, or create invisible air shields. His powers allow him to float and move in the air, making his attacks difficult to predict.",
+        "tags_fr":"Air, Vent, Tempête, Vitesse, Agilité, Magie, Élémentaire, Vol, Souffle, Agilité",
+        "description_fr":" Incarnation de la liberté et de l’agilité, ce mage danse avec les vents. Son art repose sur la fluidité et la rapidité. Il se déplace comme une brise insaisissable, frappant avec la légèreté d’un souffle mais la force d’une tempête. ",
+        "color":"#CDE2F2, #A1C2D1, #6D9EB5",
+        "sub_category":"élémentaire",
+        "values":" liberté, vivacité, subtilité, adaptation. Son histoire est celle d’un nomade aérien, toujours entre deux courants."
+    },
+    "Mage de la Terre":{
+        "category":"magie",
+        "description_en":"A mage deeply connected to the earth and its roots. He wears armor made of enchanted stones and can summon stone giants or earthquakes to dominate his enemies. His power allows him to manipulate solid elements around him, creating rock walls, trenches, or projectiles of stone. Each movement resonates with the earth beneath his feet. He embodies the stability and brute force of nature.",
+        "tags_fr":"Terre, Roc, Séisme, Stabilité, Géants, Pierre, Enraciné, Nature, Force, Magie",
+        "description_fr":" Mage enraciné dans la nature, symbole de stabilité et de force tranquille. Son corps et sa magie fusionnent avec la pierre, le rendant aussi impénétrable qu’une montagne. ",
+        "color":"#5E5843, #A09165, #7C6F4F",
+        "sub_category":"élémentaire",
+        "values":" résilience, tradition, patience, force brute. Il protège la terre autant qu’il l’utilise, tel un pilier vivant du monde."
+    },
+    "Mage de l'Illusion":{
+        "category":"magie",
+        "description_en":"A mage specialized in illusion and sensory manipulation. He wears a robe of shifting colors, which seems to transform with every step. His powers allow him to create realistic illusions, deceiving the eyes and mind of his enemies. He can make invisible creatures appear, create duplicates of himself, or change the appearance of objects and people. His art is to deceive, manipulate, and destabilize those around him.",
+        "tags_fr":"Illusion, Tromperie, Magie, Manipulation, Duperie, Apparences, Fantôme, Transformation, Menteur, Vision",
+        "description_fr":" Manipulateur de perceptions, ce mage floute la réalité. Son apparence est changeante, insaisissable, et son verbe aussi tranchant que trompeur. Il se nourrit du doute et du chaos sensoriel. ",
+        "color":"#A35DBA, #D6A4DE, #5C4572",
+        "sub_category":"manipulation",
+        "values":" ambiguïté, créativité, subversion, ruse. Sa légende est un labyrinthe de versions contradictoires."
+    },
+    "Mage du Temps":{
+        "category":"magie",
+        "description_en":"A time mage, able to manipulate the fluidity of time itself. His appearance is calm and serene, and his robe seems to twist slightly as if it exists in the past, present, and future at the same time. He can slow time, accelerate processes, or even create temporal fractures to move through the past or future. His magic is subtle but powerful, capable of rewriting certain events through his chronomantic abilities.",
+        "tags_fr":"Temps, Chronomancie, Magie, Vitesse, Réécriture, Futur, Passé, Manipulation, Énergie, Instabilité",
+        "description_fr":" Serein et mystérieux, ce mage navigue entre les époques. Il voit les fils du temps et les tire avec une précision divine. Sa magie est une boucle subtile entre fatalité et libre arbitre. ",
+        "color":"#B5B2CC, #78759A, #DCD8E4",
+        "sub_category":"chronomancie",
+        "values":" sagesse, contemplation, complexité, transcendance. Il est souvent témoin plus qu’acteur, sauf quand il faut corriger l’impossible."
+    },
+    "Mage des Vents Arctiques":{
+        "category":"magie",
+        "description_en":"A mage connected to the power of the Arctic winds, his abilities reflecting the ruthless blizzards. His cloak is woven from snow and ice, and his breath is as cold as the air of snowy mountains. He summons snowstorms, blizzards, and icy tornadoes capable of destroying and freezing everything in their path. His power allows him to travel across snowy landscapes using the breeze, and his spells have a chilling effect, slowing his enemies and trapping them in ice.",
+        "tags_fr":"Arctique, Glace, Vent, Tempête, Blizzard, Froid, Magie, Élémentaire, Glacial, Conquête",
+        "description_fr":" Incarnation du froid éternel, il est aussi implacable qu’un blizzard. Sa magie est une morsure glaciale, pure et destructrice. Il avance tel un souffle hivernal, sans hâte, mais inévitable. ",
+        "color":"#9EC8DA, #CFE8F3, #6B9BAF",
+        "sub_category":"élémentaire",
+        "values":" isolement, rigueur, pureté, conquête gelée. Sa présence annonce la fin de tout mouvement."
+    },
+    "Mage des Ombres Lunaires":{
+        "category":"magie",
+        "description_en":"A mage whose powers are linked to the moon and the shadows surrounding it. He wears a black robe sprinkled with tiny sparkling stars, and his eyes glow with a pale light, like a reflection of the moon. He can manipulate shadows to conceal his actions or summon nocturnal creatures. Under the moonlight, his powers are amplified, and he can even manipulate gravity, making his enemies slower or heavier. He is a master of the night’s darkness, guided by the lunar glow.",
+        "tags_fr":"Lune, Ombre, Magie, Astrologie, Nuit, Légèreté, Créatures, Célébration, Mystère, Sombres",
+        "description_fr":" Maître des ténèbres astrales, il puise sa puissance dans les cycles lunaires. Discret, poétique et mystique, il est l’ombre derrière la lumière. Ses sorts altèrent les lois de la gravité et du silence. ",
+        "color":"#0E0F1A, #8E88A9, #CFCDE1",
+        "sub_category":"astrologie",
+        "values":" mystère, équilibre, solitude, introspection. Il est le gardien secret des secrets célestes."
+    },
+    "Squelette du Gardien":{
+        "category":"créature",
+        "description_en":"An imposing skeleton dressed in ancient armor, worn by time but still strong and impressive. He holds a large rusted iron sword, and his upright posture reflects his eternal mission of protection. His skull is adorned with a helmet decorated with ancient runes, and pale lights emanate from his eye sockets. He is animated by an ancient vow to defend sacred places, his movements slow but powerful.",
+        "tags_fr":"Armure, Gardien, Squelette, Défense, Ancien, Lumière, Éternité, Protection, Sombre, Rustique",
+        "description_fr":" Vestige vivant d’un ancien serment, ce squelette est un rempart intemporel. Animé par une volonté sacrée, il veille sans relâche. Son corps usé symbolise la mémoire et la fidélité éternelle. ",
+        "color":"#8C7E6A, #A69B8A, #C0B89E",
+        "sub_category":"défenseur",
+        "values":" devoir, silence, résilience, mémoire sacrée. Son passé se lit dans chaque gravure runique sur son armure."
+    },
+    "Squelette Mage":{
+        "category":"créature",
+        "description_en":"A skeletal mage, whose bones were once human but are now intertwined with strands of magical energy. His floating cloak seems to be made of wind and shadows, and magical sparks float around him. His hand holds a shimmering staff adorned with arcane crystals. His eye sockets are deep pools of magical power, and he summons spectral creatures or manipulates elements through his spells.",
+        "tags_fr":"Magie, Squelette, Mage, Sombre, Sorcellerie, Arcane, Ombres, Enchantement, Cristal, Énergie",
+        "description_fr":" Être spectral maîtrisant les arcanes interdites, il symbolise la fusion entre la mort et la magie pure. Son corps désincarné est traversé d’énergies mystérieuses, et ses pouvoirs manipulent les éléments, les ombres ou les esprits. Il agit souvent dans l’ombre, invoquant des forces oubliées. ",
+        "color":"#4E4C63, #8D8BA7, #C1CAF0",
+        "sub_category":"magie",
+        "values":" connaissance occulte, transcendance, solitude, manipulation. Son histoire est celle d’un sorcier ayant défié la mort pour accéder à l’éternel savoir."
+    },
+    "Squelette Chevalier":{
+        "category":"créature",
+        "description_en":"A skeletal knight wearing heavy armor, worn by time but still formidable. He holds a long sword, his helmet adorned with dark horns, and flames escape from his empty eye sockets. This undead knight walks in silence, his presence a promise of justice or vengeance. Each step he takes makes the ground resonate like a distant war bell.",
+        "tags_fr":"Squelette, Chevalier, Guerrier, Armure, Épée, Vengeance, Flamme, Ténèbres, Mort-vivant, Combat",
+        "description_fr":" Incarnation du devoir au-delà de la mort, il avance implacable, porté par une ancienne promesse de justice ou de vengeance. Son armure rouillée est le témoin silencieux de serments brisés et d’anciens conflits. ",
+        "color":"#3A2B2B, #7F4A2E, #E67E22",
+        "sub_category":"guerrier",
+        "values":" honneur posthume, fatalité, justice vengeresse, endurance. Son récit est une quête éternelle contre l’oubli et la trahison."
+    },
+    "Squelette Archer":{
+        "category":"créature",
+        "description_en":"A skeletal archer, dressed in a cloak torn by the wind, armed with a longbow made of darkened wood and interwoven bone strands. His arrows are made of pure bone, with deadly precision. He moves silently, his gaze fixed on his target. Behind him, spectral silhouettes rise with each arrow fired, increasing his accuracy and range.",
+        "tags_fr":"Archer, Squelette, Tir, Arc, Précision, Spectre, Ranged, Silence, Mort-vivant, Énergie",
+        "description_fr":" Tireur fantomatique et patient, il frappe sans avertissement depuis les ombres. Sa précision surnaturelle est amplifiée par les âmes errantes qu’il invoque. Il représente le silence de la mort et la rapidité de l'exécution. ",
+        "color":"#2F2C2E, #9B9B9B, #D4C8B6",
+        "sub_category":"ranged",
+        "values":" discrétion, efficacité, concentration, connexion spirituelle. Il est le souvenir incarné des soldats tombés, tirant encore pour des causes oubliées."
+    },
+    "Squelette Prêtre":{
+        "category":"créature",
+        "description_en":"A skeletal priest, once dedicated to an ancient cult. His skull is decorated with religious symbols, and his flowing robe floats around him. In his hands, he holds a sacred staff or a mystical chalice, invoking blessings or curses according to his will. Strands of divine or malevolent energy float around him, creating an aura of mystical power.",
+        "tags_fr":"Prêtre, Squelette, Magie, Sacré, Malédiction, Spirituel, Invocation, Ancien, Rituel, Culte",
+        "description_fr":" Vestige d’un ancien culte, il canalise des forces sacrées ou impies selon ses rituels. Il est un guide de l’au-delà, un passeur de malédictions et de bénédictions mêlées. Sa présence est autant protectrice que terrifiante. ",
+        "color":"#857C73, #D3B884, #514A3A",
+        "sub_category":"spirituel",
+        "values":" mysticisme, foi noire, équilibre sacré\/profane."
+    },
+    "Squelette Voleur":{
+        "category":"créature",
+        "description_en":"A stealthy skeleton, dressed in a dark, worn cloak, moving with surprising speed despite its bony structure. He carries sharp daggers and a belt full of discreet gadgets. His empty eyes scan the surroundings, searching for his prey, ready to strike with deadly precision. His movements are fluid, resembling a predator in the shadows.",
+        "tags_fr":"Assassin, Squelette, Voleur, Dagues, Furtivité, Agilité, Assassinat, Ombre, Discrétion, Précision",
+        "description_fr":" Assassin agile et silencieux, il rôde dans les ténèbres comme un souffle de mort. Il est la lame furtive, l’œil qui ne dort jamais, le silence incarné. Ses dagues sont rapides, son esprit calculateur. ",
+        "color":"#1C1C1C, #6E6863, #AE9E8E",
+        "sub_category":"assassinat",
+        "values":" discrétion, liberté, efficacité létale."
+    },
+    "Squelette Gladiateur":{
+        "category":"créature",
+        "description_en":"A skeleton with a massive body, armed with a large round shield and a fearsome trident. He wears remnants of tattered armor, worn from incessant battles in the arena. His skull is partially exposed, decorated with marks of past victories. He stands ready to combat any threat with superhuman strength and endurance, a living legend of ancient arenas.",
+        "tags_fr":"Combat, Squelette, Gladiateur, Trident, Bouclier, Force, Victoire, Arène, Combat physique, Détermination",
+        "description_fr":" Colosse d’os, vétéran d’arènes anciennes, porteur d’une force brute au service du combat pur. Il est la rage canalisée, la force stoïque, la gloire sans chair. Sa vie n’est que lutte et domination. ",
+        "color":"#4C392F, #8A6D5C, #C4B8AC",
+        "sub_category":"combat",
+        "values":" bravoure, honneur martial, endurance."
+    },
+    "Squelette Druide":{
+        "category":"créature",
+        "description_en":"A skeletal druid, whose body is covered with vines, moss, and living roots. He wears a cloak made of intertwined foliage and branches. In his hands, he holds a magical branch capable of commanding the forces of nature. His eye sockets glow with a green light, and wild animals accompany him, ready to obey his commands.",
+        "tags_fr":"Nature, Squelette, Druide, Forêt, Lianes, Magie, Naturel, Animaux, Terre, Transformation",
+        "description_fr":" Gardien d’une nature ancienne et sauvage, il relie la mort à la terre nourricière. Il est le souffle de la forêt dans un corps desséché, l’allié des bêtes et des racines. ",
+        "color":"#3A5130, #8C9A6D, #B9D6A3",
+        "sub_category":"nature",
+        "values":" harmonie, mutation, sagesse tellurique."
+    },
+    "Squelette Sorcier":{
+        "category":"créature",
+        "description_en":"A skeletal sorcerer dressed in a dark robe decorated with magical runes and stardust. He carries a shimmering wand and a mystical amulet around his neck. His silhouette is surrounded by an aura of chaotic energy, and his gaze is fixed on the stars. With each incantation, bolts of pure magic erupt from his hands, ready to summon supernatural phenomena..",
+        "tags_fr":"Sorcellerie, Squelette, Magie, Chaotique, Énergie, Invocation, Runes, Étoiles, Amulette, Mystique",
+        "description_fr":" Mage d’outre-tombe au service d’énergies cosmiques chaotiques. Il combine la rigueur des anciens rituels avec l’imprévisibilité de la magie stellaire. Chaque geste est un appel aux forces obscures, chaque sort une brèche dans la réalité. ",
+        "color":"#2A2332, #77669A, #D4C3FF",
+        "sub_category":"sorcellerie",
+        "values":" savoir interdit, transcendance, chaos, mystère. Sa légende se mêle aux cieux et aux constellations oubliées."
+    },
+    "Squelette Titan":{
+        "category":"créature",
+        "description_en":"An immense skeletal titan, with broken armor and covered in the dust of war. His bones are so massive they seem made of steel, and he wields a massive two-handed sword capable of shaking the earth with each blow. Despite his imposing appearance, he exudes an aura of sadness, a legend from an ancient time. He makes the skies tremble each time he moves.",
+        "tags_fr":"Titan, Squelette, Colosse, Géant, Armure, Épée, Force, Puissance, Ancien, Légende",
+        "description_fr":" Colosse osseux issu d’une ère révolue, hanté par la mémoire de guerres anciennes. Son pas fait trembler les montagnes, mais son cœur perdu dans le passé l’emplit de mélancolie. Une puissance brute au service d’une tragédie silencieuse. ",
+        "color":"#4E4E4E, #9C8970, #C2B8A3",
+        "sub_category":"colosse",
+        "values":" force ancestrale, solitude, éternité, gravité."
+    },
+    "Orc Guerrier":{
+        "category":"créature",
+        "description_en":"A massive orc, with bulging muscles beneath his green skin marked by battle scars from past fights. His face, beastly and imposing, is adorned with metal piercings and tribal tattoos. He wears thick leather armor and wields a double-edged axe, always ready to split the flesh of his enemies. His posture promises violence, each movement a testament to his brutality and combat prowess.",
+        "tags_fr":"Combat, Orc, Guerrier, Hache, Muscles, Bataille, Armure, Force, Tribu, Violent",
+        "description_fr":" Brutal et fier, il vit pour la bataille. Son corps est une arme, son cri de guerre un tonnerre. Il suit le code de la tribu, prônant la domination par la force. ",
+        "color":"#425333, #7A3E2D, #C7A56D",
+        "sub_category":"combat",
+        "values":" honneur guerrier, brutalité, loyauté tribale, domination physique. Son nom résonne dans les chants des clans."
+    },
+    "Orc Chaman":{
+        "category":"créature",
+        "description_en":"A mystical orc shaman, wrapped in skin decorated with ritual paintings and sacred feathers. He holds a staff adorned with skulls and stones, and shards of spiritual energy float around him. His eyes glow with a supernatural light, as he communicates with the spirits of ancestors or summons natural forces to protect or destroy. His power draws from earth, air, and water",
+        "tags_fr":"Magie, Orc, Chaman, Esprits, Totems, Invocation, Énergie, Nature, Surnaturel, Ritualisme",
+        "description_fr":" Guide spirituel des clans, il canalise les forces élémentaires avec respect et puissance. Relié à la nature et aux esprits, il équilibre destruction et guérison. ",
+        "color":"#3B4A2F, #6A6B4D, #AF9E81",
+        "sub_category":"magie",
+        "values":" sagesse mystique, connexion naturelle, ritualisme, spiritualité primitive. Il est la mémoire vivante des anciens."
+    },
+    "Orc Chef de Guerre":{
+        "category":"créature",
+        "description_en":"An imposing orc, wearing armor adorned with war trophies. His skull is crowned with horns and warrior decorations. He carries a large one-handed sword and leads his troops with unshakable fervor. His gaze is intense, and when he gives orders, his voice shakes the ground. His natural charisma inspires his comrades to fight with overwhelming zeal.",
+        "tags_fr":"Leadership, Orc, Chef, Guerre, Charisme, Force, Stratégie, Trophées, Commandant, Intense",
+        "description_fr":" Alpha charismatique et meneur de meute, il impose sa volonté par l’aura autant que par la lame. Stratège de terrain, il incarne la fierté de son peuple. ",
+        "color":"#5A3D27, #8C5834, #E3B76B",
+        "sub_category":"leadership",
+        "values":" leadership, force morale, stratégie tribale, esprit de conquête. Son cri unit les orcs comme un seul être."
+    },
+    "Orc Voleur":{
+        "category":"créature",
+        "description_en":"A smaller but equally cunning orc, dressed in dark, light clothing to sneak in the shadows. His sharp claws are ready to grab his weapon, a curved dagger, while he moves silently among his enemies. His face is partially covered by a tribal mask, and he wears a belt full of stealth tools.",
+        "tags_fr":"Assassin, Orc, Voleur, Dagues, Ombre, Discrétion, Furtivité, Agilité, Piège, Rusé",
+        "description_fr":" Tacticien de l’ombre, rapide et rusé, il préfère la lame dans le dos au combat frontal. Maître de l’infiltration, il se fond dans les ténèbres pour mieux frapper. ",
+        "color":"#1F1F1F, #4C463A, #8F6B4D",
+        "sub_category":"assassinat",
+        "values":" intelligence, agilité, ruse, autonomie. Légende vivante des opérations nocturnes."
+    },
+    "Orc Archer":{
+        "category":"créature",
+        "description_en":"An orc with powerful arms and surprising accuracy, carrying a bow made of bone and wood. He hides behind rocks or trees, surveying his surroundings, ready to strike. His arrows are as large as javelins, and he shoots with brute force capable of piercing even the toughest armor.",
+        "tags_fr":"Orc, Archer, Arc, Tir, Précision, Puissance, Force, Ranged, Longueur, Loup",
+        "description_fr":" Tireur d'élite des forêts, cet orc combine instinct bestial et précision redoutable. Il se fond dans la nature, frappant à distance avec des projectiles massifs. Sa force brute rend ses tirs destructeurs, capables d'abattre des bêtes ou des soldats lourdement protégés. ",
+        "color":"#4A3C2B, #7F5E3D, #B7A97A",
+        "sub_category":"ranged",
+        "values":" discrétion, puissance concentrée, instinct, efficacité sauvage. Son mythe évoque l’œil du prédateur patient."
+    },
+    "Orc Berserker":{
+        "category":"créature",
+        "description_en":"A frenzied orc in a state of furious rage, ready to destroy everything in his path. His body is covered in red and black tattoos, symbols of his tribe. He wields a massive axe or a mace and fights with unbridled energy. His eyes glow with uncontrollable fury as he charges into battle, a whirlwind of destruction.",
+        "tags_fr":"Orc, Berserker, Hache, Rage, Force, Combat, Chaotique, Ruée, Massue, Frénésie",
+        "description_fr":" Tempête de rage incontrôlable, ce guerrier vit pour le carnage. Ses tatouages tribaux sont des marques de rituels sanguinaires. Il combat sans stratégie, porté par la fureur brute. ",
+        "color":"#3A1E1E, #911A1D, #5B3C35",
+        "sub_category":"combat",
+        "values":" violence, impulsion, loyauté tribale, sacrifice. Il incarne le chaos libéré, une légende murmurée autour des feux de guerre."
+    },
+    "Orc Shamaniste":{
+        "category":"créature",
+        "description_en":"An orc who abandoned the warrior ways to become a spiritual guide. He wears garments made of fur and beast skin, with a ritual mask decorated with mystical symbols. Glowing symbols float around him when he invokes the magic of ancestors or pacifies the spirits of the dead. His staff is surrounded by roots and sacred runes.",
+        "tags_fr":"Magie, Orc, Chaman, Ancêtres, Esprit, Rituel, Spirituel, Énergie, Protection, Ancestral",
+        "description_fr":" Guide mystique, il canalise les voix des anciens et l’énergie de la terre. Il communique avec les esprits, soigne et protège. Ses vêtements évoquent la nature et le sacré. ",
+        "color":"#3F3A30, #6B5F4D, #A49C7C",
+        "sub_category":"spirituel",
+        "values":" sagesse, connexion au passé, équilibre entre monde physique et spirituel. Il est gardien de traditions oubliées."
+    },
+    "Orc Maître de la Forge":{
+        "category":"créature",
+        "description_en":"A robust and muscular orc, always enveloped in soot and molten metal, forging weapons in his smithy. He has a thick beard, and his arms are tattooed with tribal symbols. In his hands, he forges swords and armor of unparalleled quality. His gaze is that of a focused artisan, proud to create the most powerful instruments of war.",
+        "tags_fr":"Orc, Forge, Artisan, Métal, Création, Armure, Art, Puissance, Forgeur, Magie",
+        "description_fr":" Artisan légendaire, il transforme la fureur du feu en œuvres de guerre. Maîtrisant métaux et enchantements, il crée des armes mythiques. Son art est aussi sacré que puissant. ",
+        "color":"#2E2A28, #A6492E, #D3A56D",
+        "sub_category":"artisan",
+        "values":" création, persévérance, excellence, orgueil du travail bien fait. Il est respecté autant par les guerriers que les mages."
+    },
+    "Orc Berserk Magique":{
+        "category":"créature",
+        "description_en":"A gigantic orc, merging his rage with brutal magic. His body is coursing with veins of red energy, and he wears light armor that allows great freedom of movement. He can manipulate shards of fire or waves of earth, controlling them as an extension of his own fury. His roars are accompanied by bursts of devastating magic.",
+        "tags_fr":"Magie, Orc, Berserk, Feu, Puissance, Rage, Énergie, Destruction, Conflit, Tension",
+        "description_fr":" Fusion explosive de magie et de rage, ce colosse déchaîne des tempêtes élémentaires. Sa colère est amplifiée par des forces surnaturelles. Il est l’incarnation vivante d’un cataclysme. ",
+        "color":"#470909, #B6342C, #FF7C52",
+        "sub_category":"magie",
+        "values":" pouvoir incontrôlé, intensité, destruction, domination élémentaire. Sa légende est celle d’un fléau à la fois orc et sorcier."
+    },
+    "Orc Chasseur de Trophées":{
+        "category":"créature",
+        "description_en":"An orc in light armor, wearing a beast hide and a collection of trophies from his hunts. He carries a large spear and several hunting knives, always ready to track his prey. His gaze is that of a predator, ever vigilant. Each trophy he carries is proof of his victory and mastery of the hunt.",
+        "tags_fr":"Chasseur, Orc, Trophée, Lance, Traque, Prédation, Exploration, Nature, Pisteur, Survivalisme",
+        "description_fr":" Prédateur rusé et méthodique, il vit pour la traque et le défi. Chaque trophée raconte une chasse, une victoire sur une bête mythique ou un rival coriace. Son existence est une quête de prouesses individuelles et de respect tribal. ",
+        "color":"#3C2F23, #786044, #BDA35F",
+        "sub_category":"exploration",
+        "values":" maîtrise, survie, honneur par la chasse, fierté sauvage. Il symbolise la connexion brute à la nature et la loi du plus fort."
+    },
+    "Orc Protecteur de la Forêt":{
+        "category":"créature",
+        "description_en":"A larger and more massive orc than average, dressed in leaves and bark, serving as the guardian of a sacred forest. His arms are as strong as tree trunks, and his gaze is imbued with ancient wisdom. He can control plants and trees to defend his territory against any threat. He embodies the quiet strength of nature.",
+        "tags_fr":"Forêt, Orc, Gardien, Nature, Arbre, Protection, Puissance, Magie, Gardien des bois, Sagesse",
+        "description_fr":" Gardien silencieux d’une nature ancienne, il veille sur les équilibres sacrés des bois. Il communie avec les arbres, agit avec lenteur mais frappe avec une puissance végétale inarrêtable. ",
+        "color":"#3B5732, #6D7F41, #A4A87B",
+        "sub_category":"gardien",
+        "values":" harmonie, force enracinée, sagesse protectrice, magie naturelle. Il est une force tranquille, témoin des cycles du vivant."
+    },
+    "Nain Forgeron":{
+        "category":"créature",
+        "description_en":"A robust dwarf, with a thick red beard and a blacksmith’s apron, his hands covered in soot and metal marks. He wields a heavy, hand-forged hammer, and his eyes shine with unwavering passion for craftsmanship. Surrounded by crackling forges, he shapes weapons and armor of exceptional quality. He is a master of the forge, merging metal with ancient magic.",
+        "tags_fr":"Forgeron, Nain, Artisan, Métal, Forge, Création, Marteau, Art, Tradition, Magie",
+        "description_fr":" Artisan de génie, maître des flammes et du métal. Sa passion transforme le minerai brut en artefacts légendaires. Chaque pièce qu’il forge est une œuvre de tradition et de puissance. ",
+        "color":"#5A2E22, #9B522B, #D6B393",
+        "sub_category":"artisan",
+        "values":" art, transmission, précision, endurance au travail. Il incarne le feu intérieur de la création."
+    },
+    "Nain Guerrier":{
+        "category":"créature",
+        "description_en":"A massive dwarf, all muscle, wearing heavy steel armor and wielding a two-handed axe. His beard is carefully braided, and his eyes shine with indomitable determination. He fights with the strength of many men, as unyielding as the mountain. Each swing of his axe is a strike against his enemies with deadly precision and power.",
+        "tags_fr":"Combat, Nain, Guerrier, Hache, Force, Détermination, Armure, Héroïque, Résilience, Résistance",
+        "description_fr":" Bloc de pierre vivante, incarnation du courage martial. Son corps est une forteresse, son esprit un roc. Il se bat pour l’honneur de son clan, jusqu’à son dernier souffle. ",
+        "color":"#3A3F4B, #757B86, #C0B9A2",
+        "sub_category":"combat",
+        "values":" détermination, héroïsme, ténacité, loyauté guerrière. Son passé est une suite de batailles glorieuses, de chants et d’alliances de sang."
+    },
+    "Nain Gardien de Mine":{
+        "category":"créature",
+        "description_en":"A dwarf in leather armor, marked by years of work in the mines. His hands are as solid as rock, and his gaze is equally tough and relentless. He wears a helmet adorned with mineral crystals, and a sharp pickaxe hangs at his side. Tasked with guarding the treasures of the mines and the workers within, he stands ready to defend his domain from any intrusion.",
+        "tags_fr":"Gardien, Nain, Mine, Pioche, Protection, Travailleur, Résilience, Stabilité, Force, Puit",
+        "description_fr":" Sentinelle du monde souterrain, il connaît chaque couloir, chaque veine de minerai. Protecteur inflexible des richesses du clan et des mineurs, il est toujours prêt à défendre son territoire. ",
+        "color":"#4E4536, #7E6F5C, #B5A480",
+        "sub_category":"protection",
+        "values":" responsabilité, vigilance, force discrète, constance. Il est l’écho du cœur des montagnes."
+    },
+    "Nain Prêtre de la Terre":{
+        "category":"créature",
+        "description_en":"A dwarf who venerates the elements and the earth. His robe is made of beast skin, and he bears sacred symbols etched in stone. He invokes earth blessings to protect his allies or summons earthquakes to overwhelm his enemies. His hands, covered in ancient runes, generate flashes of green light as he manipulates the energy of the earth.",
+        "tags_fr":"Magie, Nain, Prêtre, Terre, Protection, Spirituel, Ancien, Rune, Énergie, Invocation",
+        "description_fr":" Chamane rocheux, canal vivant de la magie tellurique. Il parle avec la montagne, écoute les échos des esprits minéraux. Sa puissance est ancienne, sa foi est stable comme le granit. ",
+        "color":"#4C4630, #768142, #A6A86C",
+        "sub_category":"spirituel",
+        "values":" élévation spirituelle, puissance élémentaire, guidance ancestrale, communion avec la terre. Son savoir est une lignée aussi vieille que les premières cavernes."
+    },
+    "Nain Alchimiste":{
+        "category":"créature",
+        "description_en":"A curious-minded dwarf, surrounded by vials, ingredients, and ancient tomes. His cloak is covered in pockets full of powders and rare crystals. He is a master of alchemy, using potions to heal, poison, or manipulate elements. In his workshop, colorful sparks float around him as he prepares his concoctions.",
+        "tags_fr":"Magie, Nain, Alchimie, Potion, Runes, Art, Science, Exploration, Connaissance, Transformation",
+        "description_fr":" Savant excentrique et créatif, il mélange magie et science dans une quête sans fin de compréhension du monde. Son atelier sent les herbes rares et le soufre, illuminé par les lueurs dansantes de ses expériences. ",
+        "color":"#6E4D3E, #C0A16B, #99D6C9",
+        "sub_category":"magie",
+        "values":" curiosité, transformation, connaissance, invention. Son histoire est un mélange d’échecs explosifs et de découvertes lumineuses."
+    },
+    "Nain Voleur de Trésors":{
+        "category":"créature",
+        "description_en":"A clever dwarf, dressed in dark, fitted clothing, sneaking silently in the shadows. His face is partially covered by a mask to hide his identity. He carries sharp daggers and lockpicking tools, always ready to steal an ancient artifact or infiltrate a well-guarded treasure. His clever mind and speed make him nearly invisible.",
+        "tags_fr":"Assassin, Nain, Voleur, Trésor, Couteau, Furtivité, Discrétion, Ruse, Silence, Agilité",
+        "description_fr":" Maître de l’ombre, rapide et silencieux, il vit pour le frisson du vol parfait. Agile, rusé, insaisissable, il préfère les trésors bien gardés aux combats ouverts. ",
+        "color":"#2B2C30, #4A4F5A, #A18C68",
+        "sub_category":"assassinat",
+        "values":" ruse, liberté, discrétion, audace. Il collectionne les artefacts anciens volés à des rois et des sorciers."
+    },
+    "Nain Rôdeur des Montagnes":{
+        "category":"créature",
+        "description_en":"A dwarf who roams the mountains and deep caverns. He wears fur and leather clothing to withstand extreme temperatures. His bow is made from ancient tree wood, and his arrows are fine and deadly. He is a master of exploration, using his knowledge of rugged terrain to uncover hidden treasures or well-camouflaged enemies.",
+        "tags_fr":"Exploration, Nain, Rôdeur, Montagne, Arc, Précision, Nature, Survivant, Trésor, Terrain",
+        "description_fr":" Solitaire et endurant, ce nain vit en harmonie avec les hauteurs sauvages. Sa connaissance du terrain est inégalée, et il traque aussi bien les secrets que les proies. ",
+        "color":"#3A322B, #71634A, #A99F8D",
+        "sub_category":"exploration",
+        "values":" autonomie, précision, nature, survie. Ses récits parlent d’anciennes grottes oubliées et d’ennemis invisibles."
+    },
+    "Nain Médecin de Guerre":{
+        "category":"créature",
+        "description_en":"A wise dwarf, wearing a doctor’s coat and a belt filled with medicinal potions. He walks through hostile terrain, ready to heal his wounded allies with medicinal herbs or special bandages. He has an in-depth knowledge of healing plants and ancient remedies. His presence on the battlefield is as crucial as any warrior's.",
+        "tags_fr":"Soins, Nain, Médecin, Guérison, Herbes, Support, Restauration, Soin, Bien-être, Bataille",
+        "description_fr":" Figure de calme au milieu du chaos, il répare ce que la guerre brise. Connaisseur d’herbes curatives et d’alchimie médicinale, il est la main tendre sur un champ de ruines. ",
+        "color":"#4D5A52, #A9B5A0, #DBE2CE",
+        "sub_category":"support",
+        "values":" soutien, savoir, résilience, bienveillance. Il est souvent le dernier à quitter le champ de bataille."
+    },
+    "Nain Berserker":{
+        "category":"créature",
+        "description_en":"A dwarf in the throes of fury, wielding a massive war axe with immense power. His gaze is filled with rage, his beard dripping with sweat. He charges into his enemies fearlessly, striking with devastating strength. The battle cries intoxicate him, and each blow seems harder than the last. His mind is filled with an unyielding determination to crush his foes.",
+        "tags_fr":"Combat, Nain, Berserk, Hache, Force, Rage, Furie, Violence, Résilience, Bataille",
+        "description_fr":" Incarnation de la fureur brute, il se jette dans la mêlée avec une rage sacrée. Sa puissance semble décuplée par la colère, et ses ennemis tombent sous ses assauts furieux. ",
+        "color":"#5C2C1B, #94352C, #C57C60",
+        "sub_category":"combat",
+        "values":" rage, force, chaos, passion. On raconte qu’il ne sent plus la douleur une fois enragé."
+    },
+    "Nain Artisan des Gemmes":{
+        "category":"créature",
+        "description_en":"A dwarf who transforms gems into precious items. He wears an intricately decorated tunic and special glasses for working on precious stones. He is a master sculptor and jeweler, capable of creating magical jewels that carry secret powers. Sparks of light shoot around him as he shapes the gems under his expert hands.",
+        "tags_fr":"Artisan, Nain, Gemmes, Sculptures, Précision, Création, Bijoux, Magie, Métier, Précieux",
+        "description_fr":" Artiste minutieux, il façonne la pierre avec une précision presque divine. Ses créations capturent la lumière et renferment parfois des enchantements subtils. ",
+        "color":"#645050, #B984A8, #E1C1B9",
+        "sub_category":"artisan",
+        "values":" créativité, patience, beauté, maîtrise. Ses œuvres ornent les couronnes et les reliques des rois."
+    },
+    "Nain Défenseur de la Citadelle":{
+        "category":"créature",
+        "description_en":"A stoic dwarf, dressed in thick, blackened steel armor and carrying a shield adorned with protective symbols. He is always ready to defend the citadel gates, his unwavering gaze scanning the horizon. Armed with a mace, he embodies quiet strength and loyalty to his homeland. Every step he takes echoes like a warning to anyone who would invade his land.",
+        "tags_fr":"Protection, Nain, Défenseur, Bouclier, Citadelle, Armure, Fidélité, Résistance, Force, Défense",
+        "description_fr":" Gardien inflexible des portes ancestrales, ce nain incarne la résilience, la tradition et la loyauté indéfectible à son peuple. Il est le roc sur lequel repose la sécurité de la citadelle. Sa force est silencieuse, mais sa présence impose le respect. ",
+        "color":"#2C2C2C, #7B6C58, #A39D8E",
+        "sub_category":"défense",
+        "values":" protection, honneur, fermeté, attachement au sol natal. Il apparaît dans les légendes comme le dernier rempart face au chaos."
+    },
+    "Barde Voyageur":{
+        "category":"créature",
+        "description_en":"A wandering bard, dressed in a worn but elegant cloak, carrying a lute decorated with ancient symbols. His face bears the marks of travel, and his eyes shine with a passion for the tales and songs he sings. He roams through towns and villages, telling stories, playing music, and bringing joy and inspiration wherever he goes. His enchanting voice and melody captivate souls.",
+        "tags_fr":"Barde, Musique, Voyageur, Luth, Chanson, Inspiration, Récit, Nomade, Harmonie, Poésie",
+        "description_fr":" Âme libre et curieuse, il marche au rythme des contes et des chansons. Porteur d’émotions et de souvenirs, il est à la fois messager, poète et conteur. Son art relie les peuples entre eux. ",
+        "color":"#5C3A21, #C4A57B, #E8D3A0",
+        "sub_category":"musique",
+        "values":" liberté, partage, inspiration, beauté des récits vivants. Il est chanté dans les tavernes comme l’ombre joyeuse qui passe."
+    },
+    "Barde Guérisseur":{
+        "category":"créature",
+        "description_en":"A wise and benevolent bard, wearing a light cloak adorned with leaves and gemstones. In his hands, a magical harp that seems to emit a soft light when he plays. His melodies have healing powers, capable of relieving wounds and soothing the mind. He sings ancient songs that resonate in the hearts of those who listen, bringing comfort and hope.",
+        "tags_fr":"Guérison, Barde, Musique, Harpe, Soins, Magie, Chanson, Confort, Apaisement, Lumière",
+        "description_fr":" Musicien altruiste dont la harpe tisse des harmonies curatives. Il marche entre le monde du visible et celui du cœur, apaisant blessures et chagrins. ",
+        "color":"#7EAB8D, #D9E3D0, #F6F1ED",
+        "sub_category":"soins",
+        "values":" bienveillance, harmonie, espoir, réconfort. On le dit guidé par les esprits sylvestres et les vents anciens."
+    },
+    "Barde Comédien":{
+        "category":"créature",
+        "description_en":"A mischievous bard, dressed in bright colors and shimmering fabrics. He carries a tambourine and a flute and uses exaggerated gestures to captivate his audience. His ability to improvise and tell jokes allows him to make everyone laugh with subtlety. His performances are a blend of theater and music, bringing smiles and laughter wherever he goes.",
+        "tags_fr":"Comédie, Barde, Divertissement, Musique, Rire, Flûte, Théâtre, Improvisation, Charme, Allégresse",
+        "description_fr":" Jongleur de mots et d’expressions, il est la fête incarnée. Maître du rire subtil comme du burlesque, il charme et amuse les foules, même dans les moments sombres. ",
+        "color":"#FFCF3A, #C14473, #6C4F9D",
+        "sub_category":"divertissement",
+        "values":" joie, légèreté, espièglerie, spontanéité. Son rire est contagieux, et ses histoires vivent plus longtemps que les royaumes."
+    },
+    "Barde Érudit":{
+        "category":"créature",
+        "description_en":"A wise bard, dressed in a robe embroidered with ancient symbols, holding an ancient book in one hand and a lyre in the other. His mind is a reservoir of ancient knowledge, and his songs are filled with wisdom. He tells stories of forgotten civilizations, myths, and legends that captivate the mind. His voice and music awaken curiosity and the search for truth.",
+        "tags_fr":"Savoir, Barde, Érudit, Musique, Livre, Sagesse, Légende, Histoire, Poésie, Connaissance",
+        "description_fr":" Gardien de la mémoire des peuples, il chante la sagesse et les mystères oubliés. Il transmet savoirs anciens à travers lyre et parchemins. ",
+        "color":"#4A3E5A, #D1BFA3, #8E876F",
+        "sub_category":"savoir",
+        "values":" connaissance, mémoire, éveil de l’esprit, transmission. Les érudits le vénèrent comme une source de vérité enveloppée de poésie."
+    },
+    "Barde Guerrier":{
+        "category":"créature",
+        "description_en":"A brave bard, armed with a short sword and wearing light armor decorated with musical notes. He uses his musical talent to inspire his companions in battle, singing war hymns that galvanize the soul. His words and music have the power to strengthen the strength and bravery of his allies, turning fear into action.",
+        "tags_fr":"Combat, Barde, Guerrier, Inspiration, Épée, Musique, Courage, Force, Héroïsme, Chanson",
+        "description_fr":" Héros chantant sous la pluie des flèches, il insuffle le feu sacré aux troupes. Sa musique exalte le courage, sa lame répond aux coups. ",
+        "color":"#5F4B3B, #B78F59, #D93D1A",
+        "sub_category":"combat",
+        "values":" bravoure, inspiration, fraternité, puissance collective. On le voit au front, criant une chanson épique alors que gronde la bataille."
+    },
+    "Barde Émotionnel":{
+        "category":"créature",
+        "description_en":"A bard whose music is entirely driven by his emotions. His eyes shine with an intense light, and his voice carries waves of powerful emotions through his melodies. He can enchant or disturb the hearts of his listeners, influencing their feelings through music. His pieces can calm anger, rekindle love, or provoke tears of sadness.",
+        "tags_fr":"Magie, Barde, Émotion, Musique, Chanson, Enchantement, Cœur, Envoûtant, Sentiment, Harmonie",
+        "description_fr":" Artiste au cœur à vif, il canalise ses émotions à travers la musique pour toucher profondément l’âme de ses auditeurs. Chaque note est une extension de son être, joie brûlante, chagrin infini ou amour fulgurant. Ses pouvoirs enchantent les cœurs, calment les colères ou ravivent les passions. ",
+        "color":"#6A3A95, #E9A1C0, #D0C9D6",
+        "sub_category":"magie",
+        "values":" sincérité, intensité, expression, connexion émotionnelle. Sa légende est celle d’un cœur qui chante plus fort que la raison."
+    },
+    "Barde Marchand":{
+        "category":"créature",
+        "description_en":"A charismatic bard, wearing a colorful cloak adorned with gold coins and gemstones. He is a master storyteller and uses his musical talents to draw attention and sell his goods. His songs evoke legends of adventures and treasures, enticing people to buy rare artifacts and objects. He knows how to manipulate his audience to get what he wants.",
+        "tags_fr":"Commerce, Barde, Musique, Charisme, Marchand, Vente, Histoire, Conteur, Social, Influence",
+        "description_fr":" Maître du charme et de la persuasion, il joue autant pour vendre que pour divertir. Ses récits enflamment l’imaginaire, guidant subtilement vers ses marchandises brillantes. Son art réside dans l’équilibre entre histoire et transaction. ",
+        "color":"#FFD278, #C76B26, #7C452F",
+        "sub_category":"social",
+        "values":" charisme, opportunisme, verve, spectacle. Son nom circule sur les routes marchandes comme celui d’un enchanteur d’affaires."
+    },
+    "Barde Mystique":{
+        "category":"créature",
+        "description_en":"A mysterious bard, dressed in flowing robes adorned with runes and carrying an enchanted flute. He masters sound magic and uses music to manipulate the environment around him, creating illusions, mystical sounds, and visions. His airs echo the world's magic and can change reality, creating portals or mysteries wherever he goes.",
+        "tags_fr":"Magie, Barde, Mystique, Musique, Flûte, Enchantement, Illusion, Rune, Vision, Son",
+        "description_fr":" Vagabond des dimensions, il compose des symphonies cosmiques capables de plier la réalité. Par sa musique rituelle, il convoque illusions, visions et portails oubliés. Il incarne le lien entre l’ésotérisme et l’harmonie sonore. ",
+        "color":"#403C6B, #9A84DA, #B6E0F2",
+        "sub_category":"magie",
+        "values":" mystère, magie ancienne, perception altérée, rituel. Sa présence est ressentie comme un rêve éveillé."
+    },
+    "Barde Poète":{
+        "category":"créature",
+        "description_en":"A soft and melancholic bard, dressed in simple but elegant clothes, composing poems while singing to the moon. His lyre emits soft, soothing sounds, perfect for peaceful evenings. His poems tell stories of lost love and past heroism, transporting his audience into a world of deep emotions. He is a master of words and rhyme.",
+        "tags_fr":"Poésie, Barde, Musique, Lyre, Mélancolie, Poème, Rime, Romance, Tranquillité, Emotion",
+        "description_fr":" Témoin du passé, chanteur des silences, il murmure aux étoiles les souvenirs des amours fanées et des héros tombés. Sa musique, sobre et élégante, apaise et fait réfléchir. ",
+        "color":"#C8B6A6, #6E6262, #F1EAE0",
+        "sub_category":"poésie",
+        "values":" nostalgie, beauté, contemplation, sincérité poétique. Il vit dans les souvenirs qu’il réveille."
+    },
+    "Barde Aventurier":{
+        "category":"créature",
+        "description_en":"A curious bard, wearing a cloak adorned with ancient maps and a compass around his neck. He loves to tell stories of his adventures in unknown lands and mysterious places. He is accompanied by his lute, which he uses to sing tales of mythical creatures and forgotten treasures. His eyes shine with the excitement of an upcoming adventure, always ready to explore new horizons.",
+        "tags_fr":"Aventure, Barde, Exploration, Musique, Luth, Voyage, Découverte, Histoire, Mystère, Passion",
+        "description_fr":" Conte vivant d’exploration, il marche entre les ruines et les légendes avec son luth en bandoulière. Chaque chanson est une carte, chaque rime une clé vers l’inconnu. ",
+        "color":"#48686A, #D4A373, #A8B4A5",
+        "sub_category":"exploration",
+        "values":" curiosité, liberté, passion du monde, émerveillement. Il inspire les départs vers l’inexploré."
+    }
+}
